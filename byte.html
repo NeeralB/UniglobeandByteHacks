@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            background-image: url("https://wallpaperaccess.com/full/1595324.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed; 
+            background-size: 100% 100%;   
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>According to the machine learning model,</h1>
+    <h1>{{message}}</h1>
+    <form action = "{{ url_for('chatbot') }}" method="POST">
+        <br>
+        <label for="rock">Would you like to try our chatbot?</label>
+        <input type="input" name="name1" placeholder = "Please enter your answer here"> 
+        <br>
+
+    
+        <button>Submit</button>
+    </form>
+    
+</body>
+</html>
